@@ -133,9 +133,7 @@ export function TrendingPage() {
           Stories people are returning to.
         </h1>
 
-        <p style={{ color: "#6b7280", fontSize: "18px", marginBottom: "36px" }}>
-          Ranked by likes, comments, and weighted bookmarks.
-        </p>
+     
 
         {posts.length === 0 ? (
           <div
